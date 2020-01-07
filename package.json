@@ -1,0 +1,30 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "ava": "^2.4.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0"
+  },
+  "ava": {
+    "files": [
+      "spec/**/*.js"
+    ],
+    "require": [
+      "@babel/register"
+    ]
+  }
+}
