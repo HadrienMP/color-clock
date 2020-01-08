@@ -1,12 +1,12 @@
 @media screen and (max-width: 420px) {
     body {
-        font-size: 1em;
+        font-size: .9em;
     }
     section {
         border-radius: 220px;
         box-sizing: border-box;
-        height: 270px;
-        width: 270px;
+        height: 250px;
+        width: 250px;
         padding-top: 90px;
     }
 }
