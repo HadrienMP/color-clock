@@ -11,10 +11,11 @@ section {
     margin: 50vh auto 0;
     transform: translateY(-50%);
     background: black;
-    width: 312px;
-    padding: 110px 20px 90px;
     border-radius: 220px;
-    height: 159px;
+    box-sizing: border-box;
+    height: 380px;
+    width: 380px;
+    padding-top: 120px;
 }
 
 h1, h2 {
