@@ -17,11 +17,16 @@
 <script type="module">
     import {toColor} from './color-clock.js';
 
-    const body = document.getElementsByTagName("body")[0];
-    const colorEl = document.getElementById("color");
-    const timeEl = document.getElementById("time");
+    let body = document.getElementsByTagName("body")[0];
+    let colorEl = document.getElementById("color");
+    let timeEl = document.getElementById("time");
 
+    update(body, colorEl, timeEl);
     setInterval(() => {
+        update(body, colorEl, timeEl);
+    }, 500);
+
+    function update(body, colorEl, timeEl) {
         const time = new Date();
         let color = toColor(time);
 
@@ -34,7 +39,7 @@
                 second: "numeric"
             });
         body.style = 'background-color: ' + color;
-    }, 100);
+    }
 </script>
 </body>
 </html>
