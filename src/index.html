@@ -5,33 +5,7 @@
     <title>Color Clock</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-    <style>
-        body {
-            transition: background-color 1000ms linear;
-            font-family: 'Ubuntu Mono', monospace;
-            font-size: 1.5em;
-        }
-
-        section {
-            text-align: center;
-            margin: 50vh auto 0;
-            transform: translateY(-50%);
-            color: white;
-            box-sizing: border-box;
-        }
-
-        h1, h2 {
-            margin: 0
-        }
-
-        #color {
-            font-size: 3.5em;
-        }
-
-        #time {
-            font-size: 2.5em;
-        }
-    </style>
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
 <section>
@@ -50,6 +24,7 @@
     setInterval(() => {
         const time = new Date();
         let color = toColor(time);
+
         colorEl.innerText = color;
         timeEl.innerText = time.toLocaleTimeString('en-US',
             {

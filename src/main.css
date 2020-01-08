@@ -1,0 +1,30 @@
+
+body {
+    transition: all 1000ms linear;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5em;
+    color: white;
+}
+
+section {
+    text-align: center;
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+    background: black;
+    width: 312px;
+    padding: 110px 20px 90px;
+    border-radius: 220px;
+}
+
+h1, h2 {
+    margin: 0
+}
+
+#color {
+    font-size: 3.5em;
+}
+
+#time {
+    font-size: 1.5em;
+    font-weight: normal;
+}
