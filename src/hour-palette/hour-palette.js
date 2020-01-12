@@ -1,19 +1,23 @@
 import {rgbToHex} from "../common/rgb.js";
 
 const palette = [
-    "#00feff",
-    "#00ff1b",
-    "#b8ff02",
-    "#fff400",
-    "#ffc700",
-    "#ff8200",
-    "#ff0800",
-    "#ff00f1",
-    "#9a00ff",
-    "#0300ff",
-    "#007eff",
-    "#00a8ff"
+    "#0040ff",
+    "#0080ff",
+    "#00ffff",
+    "#00ff00",
+    "#bfff00",
+    "#ffff00",
+    "#ff8000",
+    "#ff0000",
+    "#ff00bf",
+    "#bf00ff",
+    "#4000ff",
+    "#0000ff"
 ];
+
+
+
+
 const msInHour = 1000 * 60 * 60;
 
 function toColor(time) {

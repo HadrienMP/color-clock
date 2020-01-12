@@ -46,60 +46,60 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
 #cn-wrapper li:first-child {
     transform: rotate(-75deg) skew(60deg);
-    background-color: #ff0800;
+    background-color: #ff8000;
 }
 
 #cn-wrapper li:nth-child(2) {
     transform: rotate(-45deg) skew(60deg);
-    background-color: #ff00f1;
+    background-color: #ff0000;
 }
 
 #cn-wrapper li:nth-child(3) {
     transform: rotate(-15deg) skew(60deg);
-    background-color: #9a00ff;
+    background-color: #ff00bf;
 }
 
 #cn-wrapper li:nth-child(4) {
     transform: rotate(15deg) skew(60deg);
-    background-color: #0300ff;
+    background-color: #bf00ff;
 }
 
 #cn-wrapper li:nth-child(5) {
     transform: rotate(45deg) skew(60deg);
-    background-color: #007eff;
+    background-color: #4000ff;
 }
 
 #cn-wrapper li:nth-child(6) {
     transform: rotate(75deg) skew(60deg);
-    background-color: #00a8ff;
+    background-color: #0000ff;
 }
 
 #cn-wrapper li:nth-child(7) {
     transform: rotate(105deg) skew(60deg);
-    background-color: #00feff;
+    background-color: #0040ff;
 }
 
 #cn-wrapper li:nth-child(8) {
     transform: rotate(135deg) skew(60deg);
-    background-color: #00ff1b;
+    background-color: #0080ff;
 }
 
 #cn-wrapper li:nth-child(9) {
     transform: rotate(165deg) skew(60deg);
-    background-color: #b8ff02;
+    background-color: #00ffff;
 }
 
 #cn-wrapper li:nth-child(10) {
     transform: rotate(195deg) skew(60deg);
-    background-color: #fff400;
+    background-color: #00ff00;
 }
 
 #cn-wrapper li:nth-child(11) {
     transform: rotate(225deg) skew(60deg);
-    background-color: #ffc700;
+    background-color: #bfff00;
 }
 
 #cn-wrapper li:nth-child(12) {
     transform: rotate(255deg) skew(60deg);
-    background-color: #ff8200;
+    background-color: #ffff00;
 }
