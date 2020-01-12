@@ -17,5 +17,5 @@ export function toColor(time) {
     return palette[(time.getHours() % 12) - 1];
 }
 
-import {setup} from "./js/gui.js";
+import {setup} from "../gui.js";
 setup(toColor);

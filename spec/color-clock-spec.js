@@ -1,5 +1,5 @@
 import * as spec from 'ava';
-import { toColor } from '../src/js/color-clock.js';
+import { toColor } from '../src/map/color-clock.js';
 
 const someDay = "2020-01-01T";
 
