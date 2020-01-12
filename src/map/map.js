@@ -1,4 +1,4 @@
 import {toColor} from './color-clock.js';
-import {setup} from "../gui.js";
+import {setup} from "../common/gui.js";
 
 setup(toColor);
