@@ -1,8 +1,6 @@
 @media screen and (max-width: 420px) {
-    body {
-        font-size: .9em;
-    }
     section {
+        font-size: .9em;
         border-radius: 220px;
         box-sizing: border-box;
         height: 240px;
@@ -11,10 +9,8 @@
     }
 }
 @media screen and (min-width: 420px) {
-    body {
-        font-size: 1.5em;
-    }
     section {
+        font-size: 1.5em;
         border-radius: 220px;
         box-sizing: border-box;
         height: 380px;
@@ -34,6 +30,7 @@ section {
     margin: 50vh auto 0;
     transform: translateY(-50%);
     background: black;
+    z-index: 10;
 }
 
 h1, h2 {

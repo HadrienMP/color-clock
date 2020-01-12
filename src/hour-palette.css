@@ -1,0 +1,105 @@
+#cn-wrapper {
+    font-size:1.1em;
+    width: 25.7em;
+    height: 25.7em;
+    overflow: hidden;
+    position: fixed;
+    top: 50vh;
+    transform: translateY(-50%);
+    left: 50%;
+    border-radius: 50%;
+    margin-left: -13em;
+    border: 5px solid black;
+}
+#cn-wrapper li {
+    position: absolute;
+    font-size: 1.5em;
+    width: 10em;
+    height: 10em;
+    transform-origin: 100% 100%;
+    overflow: hidden;
+    left: 50%;
+    top: -1%;
+    margin-top: -1.3em;
+    margin-left: -10em;
+    transition: border .3s ease;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#cn-wrapper li span {
+    display: block;
+    height: 14.5em;
+    width: 14.5em;
+    position: absolute;
+    bottom: -6.9em;
+    right: -6.9em;
+    color: #fff;
+    text-align: center;
+    transform: skew(-60deg) rotate(-75deg) scale(1);
+    transition: opacity 0.3s, color 0.3s;
+}
+
+/* for a central angle x, the list items must be skewed by 90-x degrees
+in our case x=40deg so skew angle is 50deg
+items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
+
+#cn-wrapper li:first-child {
+    transform: rotate(-75deg) skew(60deg);
+    background-color: #ff0800;
+}
+
+#cn-wrapper li:nth-child(2) {
+    transform: rotate(-45deg) skew(60deg);
+    background-color: #ff00f1;
+}
+
+#cn-wrapper li:nth-child(3) {
+    transform: rotate(-15deg) skew(60deg);
+    background-color: #9a00ff;
+}
+
+#cn-wrapper li:nth-child(4) {
+    transform: rotate(15deg) skew(60deg);
+    background-color: #0300ff;
+}
+
+#cn-wrapper li:nth-child(5) {
+    transform: rotate(45deg) skew(60deg);
+    background-color: #007eff;
+}
+
+#cn-wrapper li:nth-child(6) {
+    transform: rotate(75deg) skew(60deg);
+    background-color: #00a8ff;
+}
+
+#cn-wrapper li:nth-child(7) {
+    transform: rotate(105deg) skew(60deg);
+    background-color: #00feff;
+}
+
+#cn-wrapper li:nth-child(8) {
+    transform: rotate(135deg) skew(60deg);
+    background-color: #00ff1b;
+}
+
+#cn-wrapper li:nth-child(9) {
+    transform: rotate(165deg) skew(60deg);
+    background-color: #b8ff02;
+}
+
+#cn-wrapper li:nth-child(10) {
+    transform: rotate(195deg) skew(60deg);
+    background-color: #fff400;
+}
+
+#cn-wrapper li:nth-child(11) {
+    transform: rotate(225deg) skew(60deg);
+    background-color: #ffc700;
+}
+
+#cn-wrapper li:nth-child(12) {
+    transform: rotate(255deg) skew(60deg);
+    background-color: #ff8200;
+}
