@@ -76,7 +76,6 @@ h1, h2 {
     overflow: hidden;
     position: fixed;
     border-radius: 50%;
-    border: 5px solid black;
 }
 #hour-colors .color {
     position: absolute;
