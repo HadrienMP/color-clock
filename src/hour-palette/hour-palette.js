@@ -15,9 +15,6 @@ const palette = [
     "#0000ff"
 ];
 
-
-
-
 const msInHour = 1000 * 60 * 60;
 
 function toColor(time) {
