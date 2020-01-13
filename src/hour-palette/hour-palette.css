@@ -111,59 +111,47 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
 #hour-colors #hour-1 {
     transform: rotate(105deg) skew(60deg);
-    background-color: #0040ff;
 }
 
 #hour-colors #hour-2 {
     transform: rotate(135deg) skew(60deg);
-    background-color: #0080ff;
 }
 
 #hour-colors #hour-3 {
     transform: rotate(165deg) skew(60deg);
-    background-color: #00ffff;
 }
 
 #hour-colors #hour-4 {
     transform: rotate(195deg) skew(60deg);
-    background-color: #00ff00;
 }
 
 #hour-colors #hour-5 {
     transform: rotate(225deg) skew(60deg);
-    background-color: #bfff00;
 }
 
 #hour-colors #hour-6 {
     transform: rotate(255deg) skew(60deg);
-    background-color: #ffff00;
 }
 #hour-colors #hour-7 {
     transform: rotate(-75deg) skew(60deg);
-    background-color: #ff8000;
 }
 
 #hour-colors #hour-8 {
     transform: rotate(-45deg) skew(60deg);
-    background-color: #ff0000;
 }
 
 #hour-colors #hour-9 {
     transform: rotate(-15deg) skew(60deg);
-    background-color: #ff00bf;
 }
 
 #hour-colors #hour-10 {
     transform: rotate(15deg) skew(60deg);
-    background-color: #bf00ff;
 }
 
 #hour-colors #hour-11 {
     transform: rotate(45deg) skew(60deg);
-    background-color: #5900ff;
 }
 
 #hour-colors #hour-12 {
     transform: rotate(75deg) skew(60deg);
-    background-color: #0000ff;
 }
