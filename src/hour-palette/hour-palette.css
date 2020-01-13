@@ -3,9 +3,9 @@
         font-size: .8em;
         border-radius: 220px;
         box-sizing: border-box;
-        height: 240px;
-        width: 240px;
-        padding-top: 80px;
+        height: 210px;
+        width: 210px;
+        padding-top: 67px;
     }
     #cn-wrapper {
         height: 22em;
@@ -16,7 +16,8 @@
         font-size: .8em;
     }
     #cn-wrapper li {
-        font-size: 1.28em;
+        font-size: 1.2em;
+        margin-top: -10px;
     }
 }
 @media screen and (min-width: 420px) {
@@ -39,6 +40,7 @@
     }
     #cn-wrapper li {
         font-size: 1.5em;
+        margin-top: -1.3em;
     }
 }
 
@@ -84,7 +86,6 @@ h1, h2 {
     overflow: hidden;
     left: 50%;
     top: -1%;
-    margin-top: -1.3em;
     margin-left: -10em;
     transition: border .3s ease;
     border: 1px solid black;
