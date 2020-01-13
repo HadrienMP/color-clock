@@ -7,7 +7,7 @@
         width: 210px;
         padding-top: 67px;
     }
-    #cn-wrapper {
+    #hour-colors {
         height: 22em;
         width: 22em;
         top: 50vh;
@@ -15,7 +15,7 @@
         left: 50%;
         font-size: .8em;
     }
-    #cn-wrapper li {
+    #hour-colors .color {
         font-size: 1.2em;
         margin-top: -10px;
     }
@@ -29,7 +29,7 @@
         width: 380px;
         padding-top: 120px;
     }
-    #cn-wrapper {
+    #hour-colors {
         width: 25.7em;
         height: 25.7em;
         top: 50vh;
@@ -38,7 +38,7 @@
         margin-left: -13em;
         font-size:1.1em;
     }
-    #cn-wrapper li {
+    #hour-colors .color {
         font-size: 1.5em;
         margin-top: -1.3em;
     }
@@ -72,13 +72,13 @@ h1, h2 {
 }
 
 
-#cn-wrapper {
+#hour-colors {
     overflow: hidden;
     position: fixed;
     border-radius: 50%;
     border: 5px solid black;
 }
-#cn-wrapper li {
+#hour-colors .color {
     position: absolute;
     width: 10em;
     height: 10em;
@@ -92,7 +92,7 @@ h1, h2 {
     box-sizing: border-box;
 }
 
-#cn-wrapper li span {
+#hour-colors .color span {
     display: block;
     height: 14.5em;
     width: 14.5em;
@@ -109,62 +109,61 @@ h1, h2 {
 in our case x=40deg so skew angle is 50deg
 items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
-#cn-wrapper li:first-child {
-    transform: rotate(-75deg) skew(60deg);
-    background-color: #ff8000;
-}
-
-#cn-wrapper li:nth-child(2) {
-    transform: rotate(-45deg) skew(60deg);
-    background-color: #ff0000;
-}
-
-#cn-wrapper li:nth-child(3) {
-    transform: rotate(-15deg) skew(60deg);
-    background-color: #ff00bf;
-}
-
-#cn-wrapper li:nth-child(4) {
-    transform: rotate(15deg) skew(60deg);
-    background-color: #bf00ff;
-}
-
-#cn-wrapper li:nth-child(5) {
-    transform: rotate(45deg) skew(60deg);
-    background-color: #4000ff;
-}
-
-#cn-wrapper li:nth-child(6) {
-    transform: rotate(75deg) skew(60deg);
-    background-color: #0000ff;
-}
-
-#cn-wrapper li:nth-child(7) {
+#hour-colors #hour-1 {
     transform: rotate(105deg) skew(60deg);
     background-color: #0040ff;
 }
 
-#cn-wrapper li:nth-child(8) {
+#hour-colors #hour-2 {
     transform: rotate(135deg) skew(60deg);
     background-color: #0080ff;
 }
 
-#cn-wrapper li:nth-child(9) {
+#hour-colors #hour-3 {
     transform: rotate(165deg) skew(60deg);
     background-color: #00ffff;
 }
 
-#cn-wrapper li:nth-child(10) {
+#hour-colors #hour-4 {
     transform: rotate(195deg) skew(60deg);
     background-color: #00ff00;
 }
 
-#cn-wrapper li:nth-child(11) {
+#hour-colors #hour-5 {
     transform: rotate(225deg) skew(60deg);
     background-color: #bfff00;
 }
 
-#cn-wrapper li:nth-child(12) {
+#hour-colors #hour-6 {
     transform: rotate(255deg) skew(60deg);
     background-color: #ffff00;
+}
+#hour-colors #hour-7 {
+    transform: rotate(-75deg) skew(60deg);
+    background-color: #ff8000;
+}
+
+#hour-colors #hour-8 {
+    transform: rotate(-45deg) skew(60deg);
+    background-color: #ff0000;
+}
+
+#hour-colors #hour-9 {
+    transform: rotate(-15deg) skew(60deg);
+    background-color: #ff00bf;
+}
+
+#hour-colors #hour-10 {
+    transform: rotate(15deg) skew(60deg);
+    background-color: #bf00ff;
+}
+
+#hour-colors #hour-11 {
+    transform: rotate(45deg) skew(60deg);
+    background-color: #5900ff;
+}
+
+#hour-colors #hour-12 {
+    transform: rotate(75deg) skew(60deg);
+    background-color: #0000ff;
 }

@@ -1,28 +1,20 @@
+import {palette} from "./palette.js";
 import {rgbToHex} from "../common/rgb.js";
-
-const palette = [
-    "#0040ff",
-    "#0080ff",
-    "#00ffff",
-    "#00ff00",
-    "#bfff00",
-    "#ffff00",
-    "#ff8000",
-    "#ff0000",
-    "#ff00bf",
-    "#bf00ff",
-    "#4000ff",
-    "#0000ff"
-];
+import {setup} from "../common/gui.js";
 
 const msInHour = 1000 * 60 * 60;
 
 function toColor(time) {
-    const colorCurrentHour = palette[(time.getHours() - 1) % 12];
-    const colorNextHour = palette[time.getHours() % 12];
+    return merge(
+        palette[(time.getHours() - 1) % 12],
+        palette[time.getHours() % 12],
+        percentOfHourPassed(time));
+}
+
+function percentOfHourPassed(time) {
     let previousHour = new Date(time.getFullYear(), time.getMonth(), time.getDate(), time.getHours());
     let msSinceLastHour = time.getTime() - previousHour.getTime();
-    return merge(colorCurrentHour, colorNextHour, msSinceLastHour / msInHour);
+    return msSinceLastHour / msInHour;
 }
 
 function merge(colorCurrentHour, colorNextHour, rate) {
@@ -50,7 +42,5 @@ function toNumericRGB(hexadecimal) {
 function between(first, second, rate) {
     return Math.floor(first - ((first - second) * rate));
 }
-
-import {setup} from "../common/gui.js";
 
 setup(toColor);
