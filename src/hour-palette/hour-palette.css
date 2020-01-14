@@ -1,4 +1,4 @@
-@media screen and (max-width: 420px) {
+@media screen {
     section {
         font-size: .8em;
         border-radius: 220px;
@@ -20,7 +20,7 @@
         margin-top: -16px;
     }
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 420px) and (min-height: 420px) {
     section {
         font-size: 1.5em;
         border-radius: 220px;
