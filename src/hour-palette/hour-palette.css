@@ -8,16 +8,16 @@
         padding-top: 67px;
     }
     #hour-colors {
-        height: 22em;
-        width: 22em;
+        height: 20em;
+        width: 20em;
         top: 50vh;
         transform: translateY(-50%) translateX(-50%);
         left: 50%;
         font-size: .8em;
     }
     #hour-colors .color {
-        font-size: 1.2em;
-        margin-top: -10px;
+        font-size: 1.15em;
+        margin-top: -16px;
     }
 }
 @media screen and (min-width: 420px) {
